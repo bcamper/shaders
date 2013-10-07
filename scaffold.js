@@ -5,7 +5,9 @@ Adapted from GLSL sandbox by Ricardo Cobello aka mr.doob: http://ricardocabello.
 Usage:
 
 Create an HTML file with GLSL fragment shader source code defined in a tag like this:
-<script id="fragment-shader" type="x-shader/x-fragment">
+<script id='fragment-shader' type='x-shader/x-fragment'>
+
+Optionally define a <canvas> with id='shader-canvas' for rendering, otherwise one will be automatically added to the document.
 
 After your shader script tag, include the scaffold file to compile & start the render loop:
 <script src="scaffold.js"></script>
@@ -47,6 +49,7 @@ function init()
     canvas = document.getElementById('shader-canvas');
     if (canvas == null) {
         canvas = document.createElement('canvas');
+        canvas.id = 'shader-canvas';
         document.body.appendChild(canvas);
     }
 
