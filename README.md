@@ -1,9 +1,9 @@
 WebGL fragment shader scaffolding
 ================================
 
-Scaffolding code for developing WebGL full-screen fragment shaders.
+Scaffolding code for developing WebGL full-screen fragment shaders. Adapted from GLSL sandbox by Ricardo Cobello aka mr.doob: http://ricardocabello.com/blog/post/714.
 
-Adapted from GLSL sandbox by Ricardo Cobello aka mr.doob: http://ricardocabello.com/blog/post/714.
+Example shader: http://vector.io/shaders/terrain.html
 
 Usage:
 
